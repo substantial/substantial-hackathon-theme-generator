@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="cya.js"></script>
+  <style>
+  .btn {
+    background: #7fa15f;
+    background-image: -webkit-linear-gradient(top, #7fa15f, #87ab68);
+    background-image: -moz-linear-gradient(top, #7fa15f, #87ab68);
+    background-image: -ms-linear-gradient(top, #7fa15f, #87ab68);
+    background-image: -o-linear-gradient(top, #7fa15f, #87ab68);
+    background-image: linear-gradient(to bottom, #7fa15f, #87ab68);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 15px 40px 15px 40px;
+    text-decoration: none;
+    border:none;
+    outline-style: none;
+    text-transform: uppercase;
+  }
+
+  .btn:hover {
+    cursor: pointer;
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  body {
+    display: flex;
+    background-image: linear-gradient(to top, #444, #213121);
+  }
+
+  section#book {
+    background-color: rgb(243,242,238);
+    width: 700px;
+    min-height: 900px;
+    margin: auto;
+  }
+
+  header {
+    background: url(choose2.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 326px;
+  }
+
+  #slot-machine {
+    margin: auto;
+    margin-top: 25px;
+    /* background-color: rgba(255,255,255,0.5); */
+    min-width: 200px;
+    min-height: 39vh;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  #result {
+    display: none;
+    padding-top: 50px;
+    font-family: Helvetica;
+    font-size: 66px;
+    color: #fff;
+    /* text-shadow: 1px 2px 4px #000; */
+    max-width: 600px;
+    margin: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(194,57,65);
+    padding: 50px 25px;
+    margin-top: 64px;
+    /* transform: rotate(4deg); */  }
+  </style>
+</head>
+<body>
+  <section id="book">
+    <header></header>
+    <section id="slot-machine">
+      <button class="btn" id="draw" >draw a theme</button>
+      <section id="result"></section>
+    </section>
+  </section>
+</body>
+</html>
