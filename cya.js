@@ -11,7 +11,6 @@ var verbs = [
   'Simplifying'
 ];
 
-
 var nouns = [
   'Privacy',
   'The Future',
