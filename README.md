@@ -1,1 +1,1 @@
-# substantial-hackathon-theme-generator
+# Summer Hackathon 2015
